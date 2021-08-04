@@ -6,19 +6,19 @@ categories: study
 tags: docker
 ---
 
-사실 apt 로 key 추가하고, 저장소 업데이트 하고, 다시 또 뭘 다운 받는 복잡한 과정을 거칠 필요 없이, 아래의 코드 한줄이면 누군가가 잘 만들어놓은 스크립트가 다운로드를 전부 대신 해줍니다.
+사실 apt 로 key 추가하고, 저장소 업데이트 하고, 다시 또 뭘 다운 받는 복잡한 과정을 거칠 필요 없이, 아래의 코드 한줄이면 누군가가 잘 만들어놓은 스크립트가 다운로드를 전부 대신 해준다.
 
 {% highlight bash %}
 curl -fsSL https://get.docker.com/ | sudo sh
 {% endhighlight %}
 
-다만 ubuntu 나 centos 가 아닌 다른 리눅스일 경우에는 위의 과정들을 통해 직접 설치해야 합니다.
+다만 ubuntu 나 centos 가 아닌 다른 리눅스일 경우에는 위의 과정들을 통해 직접 설치해야 한다.
 
-[공식 문서](https://docs.docker.com/engine/install/debian/)를 따라하면 어렵지 않아요!
+[공식 문서](https://docs.docker.com/engine/install/debian/)를 따라하면 어렵지 않을?지도?
 
 <br>
 
-터미널에서 열심히 다운로드를 완료하면, 도커가 잘 설치되었는지 확인해봅니다.
+터미널에서 열심히 다운로드를 완료하면, 도커가 잘 설치되었는지 확인한다.
 
 {% highlight bash %}
 sudo docker version
@@ -26,7 +26,7 @@ sudo docker version
 
 <br>
 
-정상적으로 설치되었다면 아래와 비슷한 결과가 출력됩니다.
+정상적으로 설치되었다면 아래와 비슷한 결과가 출력된다.
 {% highlight bash %}
 Client: Docker Engine - Community
  Version:           20.10.7
