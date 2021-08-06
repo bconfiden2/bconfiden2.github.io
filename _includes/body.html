@@ -18,13 +18,13 @@
     <main id="_main" class="content" role="main" data-color="{{ color | escape }}" data-image="{{ image | escape }}">
       {{ content }}
 
-      {% if site.disqus_shortname and page.layout == 'post' %}
+      <!-- {% if site.disqus_shortname and page.layout == 'post' %}
         {% include comments.html %}
-      {% endif %}
+      {% endif %} -->
 
       {% include footer.html %}
     </main>
-    {% include right-side.html %}
+    <!-- {% include right-side.html %} -->
   </div>
   {% include sidebar.html %}
 </div>
@@ -32,4 +32,4 @@
 <!-- =============== -->
 <!-- SCRIPTS         -->
 <!-- =============== -->
-{% include scripts.html %}
+<!-- {% include scripts.html %} -->
