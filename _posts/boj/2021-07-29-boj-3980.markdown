@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "백준 3980 : 선발 명단"
+title:  "[백준] 3980 : 선발 명단"
 subtitle:  "gdasfsd"
 categories: ps
 tags: boj
