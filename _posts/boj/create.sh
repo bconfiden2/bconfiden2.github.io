@@ -9,7 +9,7 @@ year=${dt:0:4}
 month=${dt:6:2}
 day=${dt:10:2}
 
-if [ -f sample.md ] && [ $# == 1 ] ; then
+if [ -f sample.md ] && [ $# -ge 1 ] ; then
 	cp sample.md $year-$month-$day-boj-$1.md
 fi
 
