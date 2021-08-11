@@ -1,5 +1,5 @@
+test.sh
 .*.md
-.gitignore
 _site
 .sass-cache
 .jekyll-cache
