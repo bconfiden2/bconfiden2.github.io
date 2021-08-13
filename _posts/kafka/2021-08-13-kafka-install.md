@@ -25,6 +25,8 @@ cd kafka-2.8.0-src
 ./gradlew jar -PscalaVersion=2.13.5
 ```
 
+[여기](https://downloads.apache.org/kafka/) 혹은 [여기](https://archive.apache.org/dist/kafka/)에서도 다운로드가 가능하다.
+
 ~~gradle 로 프로젝트를 빌드하는 과정에서 왜인지는 모르겠지만 java(1.8) 와 javac(11) 의 버전이 다르게 돼있어서 에러가 많이 났었다~~
 
 <br>
@@ -128,6 +130,8 @@ bash bin/kafka-console-consumer.sh --bootstrap-server X.X.X.X:9092 --group testg
 
 토픽의 파티션을 3개로 나눴기 때문에, 각 파티션 안에서는 순서가 보장이 되지만 전체 파티션에서의 순서는 보장되지 않는다.
 
+```--partition x``` 옵션을 추가할 경우는 x 파티션에서만 consume 해올 수도 있다.
+
 <br>
 
 앞서 콘솔 컨슈머를 실행시킬 때 컨슈머 그룹도 지정을 해주었는데, 또다른 새로운 컨슈머 그룹을 지정하면 처음부터 읽어 올 수 있다.
@@ -142,6 +146,8 @@ bash bin/kafka-console-consumer.sh --bootstrap-server X.X.X.X:9092 --group testg
 bash bin/kafka-consumer-groups.sh --bootstrap-server X.X.X.X:9092 --list
 # 특정 컨슈머 그룹의 상태 확인
 bash bin/kafka-consumer-groups.sh --bootstrap-server X.X.X.X:9092 --group testgroup --describe
+# 컨슈머 그룹 제거
+bash bin/kafka-consumer-groups.sh --bootstrap-server X.X.X.X:9092 --group testgroup --delete
 ```
 
 ```--describe```은 각 파티션별로 컨슈머들의 현재 오프셋과 그에 따른 LAG 등을 표시해준다.
