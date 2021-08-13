@@ -27,4 +27,12 @@ sudo vi /etc/ssh/sshd_config
 Port 22
 ```
 
+포트 번호를 바꿔줬다면, 외부에서 해당 포트로 통신을 시도할 때 인바운드로 해당 포트가 허용되어있지 않다면 방화벽에 의해 막히게 된다.
+
+**$PORT**-바꿔준 포트번호-를 방화벽에서 허용해주도록 하자.
+```bash
+sudo ufw enable
+sudo ufw allow $PORT
+```
+
 포트번호를 바꿔준 뒤 ```sudo systemctl restart sshd```를 통해 ssh 서버를 재시작 시켜주면, 다른 컴퓨터에서 해당 포트번호로 ssh 접속이 가능하다.
