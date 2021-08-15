@@ -1,1 +1,1 @@
-블로그
+공부한 내용들 정리하는 [블로그](https://bconfiden2.github.io/)
