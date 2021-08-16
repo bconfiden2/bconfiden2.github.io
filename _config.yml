@@ -79,10 +79,10 @@ paginate_path:       '/page-:num/'
 
 collections:
   featured_categories:
-    permalink:       /category/:name/
+    permalink:       /:name/
     output:          true
   featured_tags:
-    permalink:       /tag/:name/
+    permalink:       /:name/
     output:          true
   projects:
     permalink:       /projects/:path/
