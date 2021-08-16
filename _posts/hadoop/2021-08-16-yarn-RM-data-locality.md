@@ -10,7 +10,7 @@ YARN ResourceManager 의 디폴트 스케줄러는 Capacity Scheduler인데, 이
 
 CapacityScheduler는 ```Delay Scheduling``` 방식을 통해 태스크들의 locality 를 지키는데, ```node-local -> rack-local -> off-switch``` 로 3단계의 locality constraint 가 있다.
 
-스케줄러는 현재 수준에서의 locality 가 충족되지 않아서 miss 된 opportunity 의 숫자를 세고, 이 카운트가 특정 threshold에 도달할때까지 기다렸다가 다음 수준의 locality로 넘어간다.ㅇㅇㅇ
+스케줄러는 현재 수준에서의 locality 가 충족되지 않아서 miss 된 opportunity 의 숫자를 세고, 이 카운트가 특정 threshold에 도달할때까지 기다렸다가 다음 수준의 locality로 넘어간다.
 
 간단히 말해서, ```데이터가 존재하는 노드```에 스케줄링을 걸었다가 일정 횟수 이상 미스가 날 경우, 조금이라도 더 데이터에 빠르게 접근할 수 있는 ```동일한 랙의 노드```들에게 스케줄링하고, 그것도 미스가 계속 날 경우 ```다른 랙(off-switch)의 노드```에게 스케줄링 한다는 것이다.
 
