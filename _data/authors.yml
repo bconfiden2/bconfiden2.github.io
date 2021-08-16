@@ -22,7 +22,7 @@ bconfiden2:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    # facebook:        <>
+    # facebook:        <username>
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
@@ -58,7 +58,7 @@ bconfiden2:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           bconfiden2@naver.com
-    # rss:             <>
+    # rss:             <feed>
 
 # Another author
 # mdo:
