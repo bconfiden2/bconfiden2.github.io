@@ -24,8 +24,6 @@ CapacityScheduler는 ```Delay Scheduling``` 방식을 통해 태스크들의 loc
 
 ---
 
-<br>
-
 실제로 해당 설정파일을 찾아서 확인해보면 두 프로퍼티가 기본값으로 설정되어있는 것을 확인할 수 있는데, 필요에 맞게 적용할 수 있겠다.
 
 ```bash
@@ -46,4 +44,5 @@ vi /opt/hadoop/etc/hadoop/capacity-scheduler.xml
 
 <br>
 
-리소스매니저의 다른 스케줄러인 FairScheduler도 프로퍼티의 이름과 설정해주는 값에 조금의 차이는 있지만, Capacity Scheduler와 똑같이 ```노드 -> 같은 랙 -> 다른 랙```의 3단계 과정을 거쳐 locality 를 준수한다.
+리소스매니저의 다른 스케줄러인 FairScheduler도 똑같이 ```노드 -> 같은 랙 -> 다른 랙```의 3단계 과정을 거쳐 locality 를 준수한다.
+프로퍼티의 이름과 설정 값의 형식에 조금의 차이는 있다.
