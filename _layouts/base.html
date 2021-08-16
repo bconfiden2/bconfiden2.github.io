@@ -22,6 +22,10 @@ layout: compress
   {% if author.image %}{% assign image = author.image %}{% endif %}
 {% endif %}
 
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
+
 {% if page.color %}{% assign color = page.color %}{% endif %}
 {% if page.image %}{% assign image = page.image %}{% endif %}
 
