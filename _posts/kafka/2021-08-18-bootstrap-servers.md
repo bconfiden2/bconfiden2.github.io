@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kafka bootstrap.servers 설정"
+title: "[Kafka] bootstrap.servers 설정"
 subtitle: ""
 categories: bigdata
 tags: kafka

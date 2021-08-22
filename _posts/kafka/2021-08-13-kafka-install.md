@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 카프카를 단일 브로커에 설치해 CLI 명령어들 찍먹해보기
+title: "[Kafka] 카프카를 단일 브로커로 설치하고 CLI 명령어 실습해보기"
 subtitle: ""
 categories: bigdata
 tags: kafka

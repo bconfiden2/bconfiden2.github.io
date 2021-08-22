@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "YARN 리소스매니저가 데이터의 지역성을 지키는 방식"
+title: "[Hadoop] YARN 리소스매니저가 데이터의 지역성을 지키는 방식"
 subtitle: ""
 categories: bigdata
 tags: hadoop
