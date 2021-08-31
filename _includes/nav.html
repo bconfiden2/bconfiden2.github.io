@@ -14,8 +14,8 @@
     <li>
       <input type="checkbox" id="list-item-{{ count }}"/>
       <div  class="list-wrapper">
-      <label class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" for="list-item-{{ count }}">{{ node.title }}</a>
-       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}
+      <label class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" for="list-item-{{ count }}">{{ node.title }}</label>
+       {% if node.submenu %}<a class="folder" href="{{ node.url | relative_url }}">▸</a>{% endif %}
     </div>
      <ul class="list-body">
        {% for subnode in subpages %}

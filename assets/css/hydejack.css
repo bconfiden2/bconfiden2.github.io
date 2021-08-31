@@ -215,7 +215,8 @@
 }
 
 .folder:hover {
-  color: #B2EBF4;
+  /* color: #B2EBF4; */
+  color: #eb8484;
   /* background: #000;
   opacity: 0.1; */
 }
