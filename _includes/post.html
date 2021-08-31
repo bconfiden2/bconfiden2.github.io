@@ -2,19 +2,27 @@
 
 <article id="post-{{ post.id | slice: 1,9999 }}" class="post{% if include.link_title %} mb6{% endif %}" role="article">
   <header>
-    <h1 class="post-title">
-      {% if include.link_title %}<a href="{{ post.url | relative_url }}" data-flip="title">{% endif %}
+    {% if include.link_title %}
+    <h3 class="post-title">
+      <a href="{{ post.url | relative_url }}" data-flip="title">
         {{ post.title }}
-        {% if include.link_title %}</a>{% endif %}
-    </h1>
+      </a>
+    </h3>
+    {% else %}
+    <h1 class="post-title">{{ post.title }}</h1>
+    {% endif %}
 
+    {% if include.link_title %}
+
+    {% else %}
     <p class="post-date heading">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
       {% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
     </p>
+    {% endif %}
 
-    {% include message.html text=post.description %}
+    <!-- {% include message.html text=post.description %} -->
   </header>
   {% for tag_slug in post.tags %}
   {% unless tag.header-img %}
@@ -29,11 +37,8 @@
     {{ post.content }}
 
   </div>
-  {% else %}
-  {{ post.excerpt }}
-  <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a>
-  </p>
   {% endunless %}
+  
 
 </article>
 {% unless include.link_title %}
