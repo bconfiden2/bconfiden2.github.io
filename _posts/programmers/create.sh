@@ -1,4 +1,4 @@
-dt=$(date)
+dt=$(date '+%Y%m%d')
 
 if [ $# == 0 ] ; then
 	echo ERROR : add param
@@ -6,8 +6,8 @@ if [ $# == 0 ] ; then
 fi
 
 year=${dt:0:4}
-month=${dt:6:2}
-day=${dt:10:2}
+month=${dt:4:2}
+day=${dt:6:2}
 
 if [ -f sample.md ] && [ $# -ge 1 ] ; then
 	cp sample.md $year-$month-$day-$1.md
