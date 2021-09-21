@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Linux
-slug: linux
+title: ShellScript
+slug: shellscript
 category: study
 menu: false
-order: 1
+order: 3 
 ---
