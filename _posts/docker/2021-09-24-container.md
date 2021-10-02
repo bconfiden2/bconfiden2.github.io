@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "우분투 컨테이너를 실행시키면 왜 그냥 종료되는가"
+title: "[도커] 우분투 컨테이너를 실행시키면 왜 그냥 종료되는가"
 subtitle: ""
 categories: study
 tags: docker
