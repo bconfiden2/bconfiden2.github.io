@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "쉘스크립트에서 if, 조건문 사용하기"
+title:  "[쉘스크립트] if, 조건문 사용하기"
 subtitle:  ""
 categories: study
 tags: shellscript
