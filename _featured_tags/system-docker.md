@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Docker
 slug: docker
-category: study 
+category: system 
 menu: false
 order: 2 
 ---

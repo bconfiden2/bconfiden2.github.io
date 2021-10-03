@@ -2,7 +2,7 @@
 layout: post
 title:  "ssh 서버 구축하기"
 subtitle:  ""
-categories: study
+categories: system
 tags: linux
 ---
 

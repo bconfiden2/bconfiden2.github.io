@@ -2,7 +2,7 @@
 layout: post
 title: "커맨드라인에서의 확장과 인용"
 subtitle: ""
-categories: study
+categories: system
 tags: linux
 ---
 

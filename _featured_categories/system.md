@@ -1,7 +1,7 @@
 ---
 layout: list
 title: System 
-slug: study 
+slug: system 
 menu: true
 submenu: true
 order: 3

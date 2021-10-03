@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Linux
 slug: linux
-category: study 
+category: system 
 menu: false
 order: 1
 ---

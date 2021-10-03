@@ -2,7 +2,7 @@
 layout: post
 title:  "[도커] 도커란 무엇이고 왜 사용할까?"
 subtitle:  "docker"
-categories: study
+categories: system
 tags: docker
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "리눅스 시스템 디렉토리"
 subtitle: ""
-categories: study
+categories: system
 tags: linux
 ---
 
