@@ -3,7 +3,7 @@ layout: post
 title: "Addressing Mode - Indirect, Indexed, Immediate"
 subtitle: ""
 categories: cs
-tags: assembler
+tags: systemsoftware
 ---
 
 지금까지 LMC는 명령어들을 통해 주소를 받고 그 주소에 해당하는 메모리의 위치를 활성화시켜 직접 접근해서 값을 가져왔다.

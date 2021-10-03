@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: System Software 
-slug: assembler
+slug: systemsoftware 
 category: cs
 menu: false
 order: 2 
