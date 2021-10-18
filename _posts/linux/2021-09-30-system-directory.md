@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "리눅스 시스템 디렉토리"
+title: "[리눅스] 시스템 디렉토리"
 subtitle: ""
 categories: system
 tags: linux

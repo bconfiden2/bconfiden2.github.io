@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ssh config options"
+title:  "[리눅스] ssh config options"
 subtitle:  ""
 categories: system
 tags: linux

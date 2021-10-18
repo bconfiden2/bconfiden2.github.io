@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ssh 서버 구축하기"
+title:  "[리눅스] ssh 서버 구축하기"
 subtitle:  ""
 categories: system
 tags: linux

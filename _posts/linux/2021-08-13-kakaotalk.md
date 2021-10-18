@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wine 으로 카카오톡 설치하기"
+title:  "[리눅스] Wine 으로 카카오톡 설치하기"
 subtitle:  ""
 categories: system
 tags: linux
