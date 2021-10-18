@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Kafka] 카프카가 높은 처리량을 갖는 이유, High throughput"
+title: "[카프카] 높은 처리량을 갖는 이유, High throughput"
 subtitle: ""
 categories: bigdata
 tags: kafka
