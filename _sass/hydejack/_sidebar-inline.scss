@@ -123,7 +123,8 @@
     -ms-overflow-style: none;  // IE 10+
     overflow: -moz-scrollbars-none;  // Firefox
     height: 100%;
-   overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: absolute;
     padding: 3rem 0rem;
     right: 2.5rem;
