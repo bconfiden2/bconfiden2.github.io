@@ -1,4 +1,7 @@
 ---
-layout: blog
+layout: base
 title: Home
 ---
+
+{% capture my_include %}{% include test.md %}{% endcapture %}
+{{ my_include | markdownify }}
