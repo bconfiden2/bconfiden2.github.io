@@ -1,6 +1,6 @@
 ---
 layout: list
-title: System 
+title: Server 
 slug: system 
 menu: true
 submenu: true
