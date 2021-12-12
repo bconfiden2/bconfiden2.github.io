@@ -2,7 +2,7 @@
 layout: post
 title:  "[도커] Ubuntu 20.04 에 간단하게 도커 설치하기"
 subtitle:  "docker"
-categories: sytem
+categories: system
 tags: docker
 ---
 
