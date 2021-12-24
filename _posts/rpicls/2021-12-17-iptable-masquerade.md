@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[라즈베리파이] MASQUERADE 설정으로 인터넷 가져다쓰기"
+title: "[홈서버] MASQUERADE 설정으로 인터넷 가져다쓰기"
 subtitle: ""
 categories: system
 tags: rpicls
