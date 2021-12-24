@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커] docker build 와 Dockerfile"
+title: "[도커파일] docker build 와 Dockerfile"
 subtitle: ""
 categories: system
 tags: docker

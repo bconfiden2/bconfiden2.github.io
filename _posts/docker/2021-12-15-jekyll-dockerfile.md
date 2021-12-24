@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커] github blog - jekyll Dockerfile"
+title: "[도커파일] github blog - jekyll Dockerfile"
 subtitle: ""
 categories: system
 tags: docker
