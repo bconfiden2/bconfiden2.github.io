@@ -4,5 +4,5 @@ title: SWEA
 slug: swea
 category: ps
 menu: false
-order: 2
+order: 2000
 ---

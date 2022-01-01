@@ -4,5 +4,5 @@ title: Kafka
 slug: kafka
 category: bigdata
 menu: false
-order: 3
+order: 3000
 ---

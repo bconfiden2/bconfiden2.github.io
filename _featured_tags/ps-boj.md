@@ -4,5 +4,5 @@ title: BOJ
 slug: boj
 category: ps
 menu: false
-order: 1
+order: 1000
 ---
