@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Docker
 slug: docker
-category: system 
+category: devops 
 menu: false
 order: 3000 
 ---

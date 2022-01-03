@@ -2,7 +2,7 @@
 layout: post
 title: "[리눅스] 커맨드라인에서의 확장과 인용"
 subtitle: ""
-categories: system
+categories: devops
 tags: linux
 ---
 

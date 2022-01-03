@@ -2,7 +2,7 @@
 layout: post
 title: "[도커파일] docker build 와 Dockerfile"
 subtitle: ""
-categories: system
+categories: devops
 tags: docker
 ---
 

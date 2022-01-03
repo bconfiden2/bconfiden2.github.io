@@ -2,7 +2,7 @@
 layout: post
 title: "[라즈베리파이] sd 카드에 운영체제 설치하기"
 subtitle: ""
-categories: system
+categories: devops
 tags: rpicls
 ---
 

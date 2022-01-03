@@ -2,7 +2,7 @@
 layout: post
 title: "[리눅스마스터 2급] 리눅스의 이해 - 라이센스"
 subtitle: ""
-categories: system
+categories: devops
 tags: linux
 ---
 

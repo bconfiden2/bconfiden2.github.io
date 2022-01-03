@@ -2,7 +2,7 @@
 layout: post
 title: "[도커] 컨테이너의 라이프사이클(life cycle)"
 subtitle: ""
-categories: system
+categories: devops
 tags: docker
 ---
 

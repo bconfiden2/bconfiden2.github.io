@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Server 
-slug: system 
+title: DevOps 
+slug: devops
 menu: true
 submenu: true
 order: 3

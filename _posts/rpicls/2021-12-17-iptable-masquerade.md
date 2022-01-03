@@ -2,7 +2,7 @@
 layout: post
 title: "[홈서버] MASQUERADE 설정으로 인터넷 가져다쓰기"
 subtitle: ""
-categories: system
+categories: devops
 tags: rpicls
 ---
 

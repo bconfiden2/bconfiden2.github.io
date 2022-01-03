@@ -2,7 +2,7 @@
 layout: post
 title: "[홈서버] 홈 클러스터에서 원격 주피터 서버 열어놓기"
 subtitle: ""
-categories: system
+categories: devops
 tags: rpicls
 ---
 

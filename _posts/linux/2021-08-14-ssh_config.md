@@ -2,7 +2,7 @@
 layout: post
 title:  "[리눅스] ssh config options"
 subtitle:  ""
-categories: system
+categories: devops
 tags: linux
 ---
 

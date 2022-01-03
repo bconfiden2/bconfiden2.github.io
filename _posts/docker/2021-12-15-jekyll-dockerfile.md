@@ -2,7 +2,7 @@
 layout: post
 title: "[도커파일] github blog - jekyll Dockerfile"
 subtitle: ""
-categories: system
+categories: devops
 tags: docker
 ---
 

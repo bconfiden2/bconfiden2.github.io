@@ -2,7 +2,7 @@
 layout: post
 title: "[리눅스] redirection - 표준입출력 방향 재지정"
 subtitle: ""
-categories: system
+categories: devops
 tags: linux
 ---
 

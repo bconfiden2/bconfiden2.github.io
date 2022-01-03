@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Ansible 
 slug: ansible
-category: system 
+category: devops 
 menu: false
 order: 5000
 ---

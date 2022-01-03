@@ -2,7 +2,7 @@
 layout: post
 title: "[리눅스] 사용자 계정 비밀번호 관리"
 subtitle: ""
-categories: system
+categories: devops
 tags: linux
 ---
 

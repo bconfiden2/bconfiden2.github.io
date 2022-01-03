@@ -2,7 +2,7 @@
 layout: post
 title: "[리눅스마스터 2급] 리눅스의 설치 - 부트 매니저"
 subtitle: ""
-categories: system
+categories: devops
 tags: linux
 ---
 

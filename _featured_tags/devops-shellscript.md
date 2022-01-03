@@ -2,7 +2,7 @@
 layout: tag-blog
 title: ShellScript
 slug: shellscript
-category: system 
+category: devops 
 menu: false
 order: 4000 
 ---
