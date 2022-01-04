@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[리눅스마스터 2급] 리눅스의 설치 - 파티션"
+title: "[리눅스] 디스크 파티션"
 subtitle: ""
 categories: devops
 tags: linux

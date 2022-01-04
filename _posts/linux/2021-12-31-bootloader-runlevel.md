@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[리눅스마스터 2급] 리눅스의 설치 - 부트 매니저"
+title: "[리눅스] 시스템 부팅 과정, 부트로더와 런레벨"
 subtitle: ""
 categories: devops
 tags: linux
