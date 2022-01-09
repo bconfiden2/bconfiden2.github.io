@@ -3,7 +3,7 @@ layout: post
 title: "[홈클러스터] MASQUERADE 설정으로 메인노드 인터넷 가져다쓰기"
 subtitle: ""
 categories: devops
-tags: rpicls
+tags: homecls
 ---
 
 현재 라즈베리파이 클러스터들은 공유기에 직접적으로 연결되는 것이 아니라, 스위치를 통해 다른 콘솔 역할을 맡은 컴퓨터랑만 네트워크가 연결되어 있다.

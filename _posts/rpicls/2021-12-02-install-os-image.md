@@ -3,7 +3,7 @@ layout: post
 title: "[홈클러스터] 라즈베리파이 - 운영체제 설치 및 와이파이 세팅"
 subtitle: ""
 categories: devops
-tags: rpicls
+tags: homecls
 ---
 
 ## 준비물
