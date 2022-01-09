@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[홈서버] MASQUERADE 설정으로 인터넷 가져다쓰기"
+title: "[홈클러스터] MASQUERADE 설정으로 메인노드 인터넷 가져다쓰기"
 subtitle: ""
 categories: devops
 tags: rpicls
