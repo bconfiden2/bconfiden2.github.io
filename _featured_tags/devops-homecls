@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: R-Pi Cluster 
-slug: rpicls 
+title: Home Cluster 
+slug: homecls 
 category: devops 
 menu: false
 order: 2000 
