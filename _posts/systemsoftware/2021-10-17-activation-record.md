@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Function call, Activation Record"
+title: "[시스템] Function call, Activation Record"
 subtitle: ""
 categories: cs
 tags: systemsoftware

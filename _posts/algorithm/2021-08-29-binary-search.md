@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "이진 탐색(Binary Search), lower bound 와 upper bound"
+title: "[알고리즘] 이진 탐색(Binary Search), lower bound 와 upper bound"
 subtitle: ""
 categories: cs
 tags: algorithm
