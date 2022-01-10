@@ -30,9 +30,9 @@ layout: compress
 {% if page.image %}{% assign image = page.image %}{% endif %}
 
 <head>
-  {% include head.html %}
+  {% include head.html post=page %}
 </head>
 
 <body>
-  {% include body.html %}
+  {% include body.html post=page %}
 </body>
