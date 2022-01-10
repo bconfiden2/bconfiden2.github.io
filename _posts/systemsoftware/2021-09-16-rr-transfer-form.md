@@ -3,7 +3,7 @@ layout: post
 title: "[시스템] Register-Register Transfer Form"
 subtitle: ""
 categories: cs
-tags: systemsoftware
+tags: system
 ---
 
 ### Fetch and Decoding (Default)

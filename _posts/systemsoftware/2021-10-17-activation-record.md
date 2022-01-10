@@ -3,7 +3,7 @@ layout: post
 title: "[시스템] Function call, Activation Record"
 subtitle: ""
 categories: cs
-tags: systemsoftware
+tags: system
 ---
 
 프로그램에서 함수를 호출할 때, 여러 값들에 대한 제어가 필요하다.

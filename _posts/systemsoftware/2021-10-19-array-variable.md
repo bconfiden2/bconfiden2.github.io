@@ -3,7 +3,7 @@ layout: post
 title: "[시스템] 배열이 전역변수, 지역변수, 포인터로 선언되었을 때의 내부적인 차이"
 subtitle: ""
 categories: cs
-tags: systemsoftware
+tags: system
 ---
 
 아래의 배열 a, b 와 포인터 c 는 모두 주소를 의미한다. 

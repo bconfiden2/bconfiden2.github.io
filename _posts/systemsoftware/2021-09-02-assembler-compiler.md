@@ -3,7 +3,7 @@ layout: post
 title: "[시스템] 어셈블러와 컴파일러의 차이"
 subtitle: ""
 categories: cs
-tags: systemsoftware
+tags: system
 ---
 
 시스템 소프트웨어는, 하드웨어 리소스를 관리하며 컴퓨터 시스템의 작업들을 돕는 여러 프로그램들을 의미하며, 사용자들이 응용 소프트웨어의 작동과 이용에 집중할 수 있게 해준다.
