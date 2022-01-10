@@ -42,7 +42,7 @@ tags: homecls
 
 <br>
 
-## 세팅
+## Wifi 세팅
 
 라즈베리파이에 기본적으로 와이파이 모듈을 탑재해줬기 때문에, 무선인터넷에 연결이 가능하다.
 
@@ -52,6 +52,33 @@ tags: homecls
 
 ```sudo raspi-config```를 사용하여 다른 기본적인 세팅들에 대해서도 설정할 수 있는 창을 띄워준다.(약간 ncurses 라이브러리 같은 느낌의 윈도우랄까)
 
+설정창에서 Localisation Options - WLAN Country 를 US 혹은 UK 로 잡아주면 된다.
+
+이후에는 상단 배너에서 와이파이를 직접 잡아주면 된다.
+
 만약 GUI 지원이 되지 않는 운영체제(우분투 서버 같은)로 들어왔다면 무선인터넷은 ```/etc/wpa_supplicant/wpa_supplicant.conf``` 파일에서 설정해줄 수 있다.
+
+```bash
+$ sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+    ssid="WIFI_NAME"
+    psk="WIFI_PASSWORD"
+}
+```
+
+이때 psk 부분에는 와이파이 비밀번호를 평문 그대로 저장하는데, 보안상 찝찝할 경우에는 ```wpa_passphrase [WIFI_NAME] [WIFI_PASSWORD]``` 명령어를 사용해 임의의 psk 를 생성할 수 있다.
+
+```bash
+$ wpa_passphrase WIFI_NAME WIFI_PASSWORD
+network={
+	ssid="WIFI_NAME"
+	#psk="WIFI_PASSWORD"
+	psk=46d9ce1543e5997199f818b25b75afc512afb57ec7e42140853e4f7a99a76d19
+}
+```
 
 시간대 역시 기본적으로는 표준시간대 그대로 세팅되어있기 때문에, CLI 상에서 명령어로 설정해줘야 한다면 ```timedatectl``` 을 활용하자!
