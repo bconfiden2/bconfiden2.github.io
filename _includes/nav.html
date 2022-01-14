@@ -14,14 +14,14 @@
     <li>
       <input type="checkbox" id="list-item-{{ count }}"/>
       <div  class="list-wrapper">
-      <label class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" for="list-item-{{ count }}">{{ node.title }}</label>
-       {% if node.submenu %}<a class="folder" href="{{ node.url | relative_url }}">▸</a>{% endif %}
+      <label class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" for="list-item-{{ count }}">{{ node.title }} ({{ count }})</label>
+       <!-- {% if node.submenu %}<a class="folder" href="{{ node.url | relative_url }}">▸</a>{% endif %} -->
     </div>
      <ul class="list-body">
        {% for subnode in subpages %}
            {% if subnode.category == node.slug %}
              <li>
-               <a class="sidebar-nav-subitem{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
+               <a class="sidebar-nav-subitem{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }} ({{ count }})</a>
              </li>
            {% endif %}
          {% endfor %}
