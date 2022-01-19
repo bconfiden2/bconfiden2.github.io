@@ -6,9 +6,7 @@ categories: ps
 tags: boj
 ---
 
-**Grade** --- *# Tags*
-
-[문제 바로가기](https://www.acmicpc.net/problem/number)
+[문제 바로가기](https://www.acmicpc.net/problem/number) --- **Grade** --- *# Tags*
 
 ---
 
