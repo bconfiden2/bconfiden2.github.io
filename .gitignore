@@ -1,5 +1,6 @@
 posts
 test.sh
+test.go
 .*.md
 _site
 .sass-cache
