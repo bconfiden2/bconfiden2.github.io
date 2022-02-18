@@ -7,7 +7,40 @@ tags: hadoop
 
 잡을 제출하기 위한 드라이버 프로세스 부분에서는 System.out.println 등을 활용해 표준출력으로 아무거나 찍을 경우, 해당 프로세스를 실행시킨 노드의 표준출력에서 확인이 가능하다.
 
-일반적으로는 매퍼나 리듀서에서 작업한 내용을 가지고 따로 카운터를 만들어 활용한 뒤, 드라이버에서 잡이 끝나면 카운터 값을 확인하는 식으로 디버깅이 가능하다.
+일반적으로는 매퍼나 리듀서에서 작업한 내용을 가지고 따로 카운터를 만들어 활용한 뒤, 아래처럼 드라이버 프로세스에서 잡이 끝나면 카운터 값을 확인하는 식으로 디버깅이 가능하다.
+
+```java
+@Override
+public int run(String[] strings) throws Exception {
+    Job job = Job.getInstance(conf, "test");
+    job.setJarByClass(test.class);
+    job.setMapperClass(testMapper.class);
+    job.setMapOutputKeyClass(Text.class);
+    job.setMapOutputValueClass(Text.class);
+    job.setReducerClass(textReducer.class);
+    job.setOutputKeyClass(Text.class);
+    job.setOutputValueClass(Text.class);
+    job.setInputFormatClass(TextInputFormat.class);
+    job.setOutputFormatClass(TextOutputFormat.class);
+    FileInputFormat.addInputPath(job, new Path(strings[0]));
+    FileOutputFormat.setOutputPath(job, new Path(strings[1]));
+    job.waitForCompletion(false);
+
+    System.out.println("이 메시지는 드라이버 프로세스를 실행시킨 노드의 표준출력에 찍힘");
+    // 매퍼 출력 레코드 수를 관리하는 카운터 값을 가져와서 출력
+    System.out.println(job.getCounters().findCounter(TaskCounter.MAP_OUTPUT_RECORDS).getValue())
+}
+
+public static class testMapper extends Mapper<Object, Text, Text, Text> {
+    @Override
+    protected void map(Object key, Text value, Mapper<Object, Text, Text, Text>.Context context)
+    throws IOException, InterruptedException {
+        
+        System.out.println("매퍼에서 블록에 있는 레코드마다 map 을 적용시킬 때 출력하고 싶음");
+        System.out.println("드라이버의 표준출력에 찍히지 않음!");
+    }
+}
+```
 
 그러나 어떤 데이터를 어떤 매퍼가 가져가서 어떻게 출력하는지 등에 대한 정보 자체는 해당 매퍼에서 출력하는 것이 편한데, 이러한 출력값들은 당연히 드라이버를 실행시킨 노드에서 출력되지 않는다.
 
