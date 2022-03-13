@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "if, 조건문 사용하기"
-subtitle:  ""
-categories: devops
 tags: shellscript
 ---
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Function call, Activation Record"
-subtitle: ""
-categories: cs
 tags: system
 ---
 

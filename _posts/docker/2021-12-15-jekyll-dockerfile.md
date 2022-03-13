@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "도커파일 - 깃헙 블로그 구성하는 jekyll Dockerfile"
-subtitle: ""
-categories: devops
 tags: docker
 ---
 

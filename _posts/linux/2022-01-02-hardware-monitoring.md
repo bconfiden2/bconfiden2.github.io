@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "smartctl, 하드디스크 SMART 모니터링 도구"
-subtitle: ""
-categories: devops
 tags: linux
 ---
 

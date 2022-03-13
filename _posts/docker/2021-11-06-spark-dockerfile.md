@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "도커파일 - 스파크 마스터/워커 이미지 및 컴포즈로 클러스터 구성하기"
-categories: devops
 tags: docker
 ---
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "도커에서 부모 이미지와 자식 이미지"
-subtitle: ""
-categories: v
 tags: docker
 ---
 

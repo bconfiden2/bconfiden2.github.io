@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "명령어를 실행하기 전에 쉘이 수행하는 다양한 확장들"
-subtitle: ""
-categories: devops
 tags: shellscript
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "도커파일에서 멀티 스테이지 빌드란?"
-categories: devops
 tags: docker
 ---
 

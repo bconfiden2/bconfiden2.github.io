@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "네트워크 문제 발생 시 리눅스에서 원인 추적하기"
-categories: devops
 tags: linux
 ---
 

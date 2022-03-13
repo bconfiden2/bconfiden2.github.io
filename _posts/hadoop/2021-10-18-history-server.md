@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "히스토리 서버는 왜 사용할까"
-subtitle: ""
-categories: bigdata
 tags: hadoop
 ---
 

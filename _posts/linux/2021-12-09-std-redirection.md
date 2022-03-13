@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "redirection - 표준입출력 방향 재지정"
-subtitle: ""
-categories: devops
 tags: linux
 ---
 

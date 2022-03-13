@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "하둡 완전 분산 모드로 클러스터 설정하기"
-categories: devops
 tags: homecls
 ---
 

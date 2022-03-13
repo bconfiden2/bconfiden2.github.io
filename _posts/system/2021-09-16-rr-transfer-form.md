@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Register-Register Transfer Form"
-subtitle: ""
-categories: cs
 tags: system
 ---
 

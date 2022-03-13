@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "클러스터에서 MASQUERADE 설정으로 메인노드 인터넷 가져다쓰기"
-subtitle: ""
-categories: devops
 tags: homecls
 ---
 

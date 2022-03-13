@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "시스템 디렉토리"
-subtitle: ""
-categories: devops
 tags: linux
 ---
 

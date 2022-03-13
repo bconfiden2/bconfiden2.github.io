@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "listeners 와 advertised.listeners 차이"
-subtitle: ""
-categories: bigdata
 tags: kafka
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "매퍼/리듀서에서 표준출력으로 디버깅하기"
-categories: bigdata
 tags: hadoop
 ---
 

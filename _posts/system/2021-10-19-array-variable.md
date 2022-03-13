@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "배열이 전역변수, 지역변수, 포인터로 선언되었을 때의 내부적인 차이"
-subtitle: ""
-categories: cs
 tags: system
 ---
 
