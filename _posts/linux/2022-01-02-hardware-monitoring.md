@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[리눅스] smartctl, 하드디스크 SMART 모니터링 도구"
-subtitle: ""
-categories: devops
+title: "smartctl, 하드디스크 SMART 모니터링 도구"
 tags: linux
 ---
 

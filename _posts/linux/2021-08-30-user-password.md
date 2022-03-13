@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[리눅스] 사용자 계정 비밀번호 관리"
-subtitle: ""
-categories: devops
+title: "사용자 계정 비밀번호 관리"
 tags: linux
 ---
 

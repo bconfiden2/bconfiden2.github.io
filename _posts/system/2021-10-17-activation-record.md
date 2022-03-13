@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[시스템] Function call, Activation Record"
-subtitle: ""
-categories: cs
+title: "Function call, Activation Record"
 tags: system
 ---
 

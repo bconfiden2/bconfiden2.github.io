@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[카프카] bootstrap.servers 설정"
-subtitle: ""
-categories: bigdata
+title: "bootstrap.servers 설정"
 tags: kafka
 ---
 

@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[리눅스] 커맨드라인 키보드 기법"
-subtitle: ""
-categories: devops
+title: "커맨드라인 키보드 기법"
 tags: linux
 ---
 

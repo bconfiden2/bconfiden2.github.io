@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "[리눅스] ssh config options"
-subtitle:  ""
-categories: devops
+title:  "ssh config options"
 tags: linux
 ---
 

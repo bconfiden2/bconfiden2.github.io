@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[시스템] 어셈블러와 컴파일러의 차이"
-subtitle: ""
-categories: cs
+title: "어셈블러와 컴파일러의 차이"
 tags: system
 ---
 

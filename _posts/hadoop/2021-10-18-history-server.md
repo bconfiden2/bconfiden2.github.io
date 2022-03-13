@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[맵리듀스] 히스토리 서버는 왜 사용할까"
-subtitle: ""
-categories: bigdata
+title: "히스토리 서버는 왜 사용할까"
 tags: hadoop
 ---
 

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "[리눅스] 디스크 파티션"
-subtitle: ""
-categories: devops
-tags: linux
+title: "디스크 파티션"
+tags: system
 ---
 
 ## 파티션의 종류

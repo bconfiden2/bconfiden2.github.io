@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "[리눅스] ssh 서버 구축하기"
-subtitle:  ""
-categories: devops
+title:  "ssh 서버 구축하기"
 tags: linux
 ---
 

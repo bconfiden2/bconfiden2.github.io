@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "[맵리듀스] 매퍼/리듀서에서 표준출력으로 디버깅하기"
-categories: bigdata
+title: "매퍼/리듀서에서 표준출력으로 디버깅하기"
 tags: hadoop
 ---
 

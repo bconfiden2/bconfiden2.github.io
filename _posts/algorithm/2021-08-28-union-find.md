@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[알고리즘] 유니온 파인드(Union Find)"
-subtitle: ""
-categories: cs
+title: "유니온 파인드(Union Find)"
 tags: algorithm
 ---
 

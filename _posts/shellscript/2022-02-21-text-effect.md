@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "[쉘스크립트] 콘솔창 텍스트 색깔/속성 지정"
-categories: devops
+title: "콘솔창 텍스트 색깔/속성 지정"
 tags: shellscript
 ---
 

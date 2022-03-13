@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "[하둡] 로컬에서 맵리듀스 프로그래밍/디버깅 후 클러스터에 제출하기까지"
-categories: bigdata
+title: "로컬에서 맵리듀스 프로그래밍/디버깅 후 클러스터에 제출하기까지"
 tags: hadoop
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "[리눅스] 네트워크 문제 발생 시 리눅스에서 원인 추적하기"
-categories: devops
-tags: linux
+title: "네트워크 문제 발생 시 리눅스에서 원인 추적하기"
+tags: network
 ---
 
 여러가지 문제들이 서버의 네트워크 상태에 영향을 미쳐 정상적으로 인터넷과 연결이 되지 않을 수 있다.

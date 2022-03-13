@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "[도커] Ubuntu 20.04 에 간단하게 도커 설치하기"
-subtitle:  "docker"
-categories: devops
+title:  "Ubuntu 20.04 에 간단하게 도커 설치하기"
 tags: docker
 ---
 

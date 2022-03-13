@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[홈클러스터] 메인 노드에서 원격 주피터 서버 열어놓기"
-subtitle: ""
-categories: devops
+title: "메인 노드에서 원격 주피터 서버 열어놓기"
 tags: homecls
 ---
 

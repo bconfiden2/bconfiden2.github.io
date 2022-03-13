@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "[쉘스크립트] 명령어를 실행하기 전에 쉘이 수행하는 다양한 확장들"
-subtitle: ""
-categories: devops
+title: "명령어를 실행하기 전에 쉘이 수행하는 다양한 확장들"
 tags: shellscript
 ---
 
