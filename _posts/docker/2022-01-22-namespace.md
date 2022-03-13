@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커] 컨테이너들을 독립적으로 구성하는 기술 - 리눅스 네임스페이스"
+title: "도커 컨테이너들을 독립적으로 구성하는 기술 - 리눅스 네임스페이스"
 categories: devops
 tags: docker
 ---

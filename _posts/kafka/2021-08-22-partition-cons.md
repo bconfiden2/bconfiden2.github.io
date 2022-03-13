@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[카프카] 파티션이 많을 때의 단점"
+title: "파티션이 많을 때의 단점"
 subtitle: ""
 categories: bigdata
 tags: kafka

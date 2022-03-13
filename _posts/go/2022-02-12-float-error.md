@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Go] 실수형 값에서 발생하는 미세한 오차를 없애는 방법"
+title: "실수형 값에서 발생하는 미세한 오차를 없애는 방법"
 categories: programming
 tags: go
 ---

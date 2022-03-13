@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커파일] docker build 와 Dockerfile"
+title: "docker build 와 Dockerfile"
 subtitle: ""
 categories: devops
 tags: docker

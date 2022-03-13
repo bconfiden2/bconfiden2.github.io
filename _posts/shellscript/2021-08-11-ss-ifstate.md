@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[쉘스크립트] if, 조건문 사용하기"
+title:  "if, 조건문 사용하기"
 subtitle:  ""
 categories: devops
 tags: shellscript

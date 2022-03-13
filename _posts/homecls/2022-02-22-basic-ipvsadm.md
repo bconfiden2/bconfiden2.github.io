@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[홈클러스터] 리눅스 ipvsadm 을 활용한 웹서버 로드밸런싱 테스트"
+title: "리눅스 ipvsadm 을 활용한 웹서버 로드밸런싱 LVM 클러스터 구축"
 categories: devops
 tags: homecls
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커] 경량화된 이미지들, alpine 과 distroless"
+title: "경량화된 도커 이미지들, alpine 과 distroless"
 categories: devops
 tags: docker
 ---

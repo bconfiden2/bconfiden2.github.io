@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[카프카] listeners 와 advertised.listeners 차이"
+title: "listeners 와 advertised.listeners 차이"
 subtitle: ""
 categories: bigdata
 tags: kafka

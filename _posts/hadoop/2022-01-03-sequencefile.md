@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[맵리듀스] SequenceFile.Reader로 바이너리 형태의 시퀀스파일 직접 읽어오기"
+title: "SequenceFile.Reader로 바이너리 형태의 시퀀스파일 직접 읽어오기"
 categories: bigdata
 tags: hadoop
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[하둡] 하둡 클러스터를 위한 커널 파라미터와 파일시스템 최적화 방법"
+title: "하둡 클러스터를 위한 커널 파라미터와 파일시스템 최적화 방법"
 categories: bigdata
 tags: hadoop
 ---

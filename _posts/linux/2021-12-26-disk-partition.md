@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[리눅스] 디스크 파티션"
+title: "디스크 파티션"
 subtitle: ""
 categories: devops
 tags: linux

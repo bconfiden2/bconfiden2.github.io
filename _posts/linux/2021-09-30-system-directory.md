@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[리눅스] 시스템 디렉토리"
+title: "시스템 디렉토리"
 subtitle: ""
 categories: devops
 tags: linux

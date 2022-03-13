@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[리눅스] 시스템 부팅 과정, 부트로더와 런레벨"
+title: "시스템 부팅 과정, 부트로더와 런레벨"
 subtitle: ""
 categories: devops
 tags: linux

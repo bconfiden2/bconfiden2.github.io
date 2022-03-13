@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[맵리듀스] 프로그램에서 셔플되는 로컬 데이터들의 위치"
+title: "맵리듀스 프로그램에서 셔플되는 로컬 데이터들의 위치"
 subtitle: ""
 categories: bigdata
 tags: hadoop

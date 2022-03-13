@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[도커] 컨테이너의 라이프사이클(life cycle)"
+title: "도커 컨테이너의 라이프사이클(life cycle)"
 subtitle: ""
 categories: devops
 tags: docker
