@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[시스템] Addressing Mode - Indirect, Indexed, Immediate"
+title: "Addressing Mode - Indirect, Indexed, Immediate"
 subtitle: ""
 categories: cs
 tags: system
