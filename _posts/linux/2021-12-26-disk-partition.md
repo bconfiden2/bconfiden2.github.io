@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "디스크 파티션"
-tags: linux
+tags: system
 ---
 
 ## 파티션의 종류

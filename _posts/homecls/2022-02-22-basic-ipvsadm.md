@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "리눅스 ipvsadm 을 활용한 웹서버 로드밸런싱 LVM 클러스터 구축"
-tags: homecls
+tags: homecls linux
 ---
 
 리눅스 커널에 존재하는 로드밸런싱을 위한 가상 서버 모듈인 ipvsadm 을 활용하여 웹서버 로드밸런싱을 구현할 수 있다.
