@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "명령어를 실행하기 전에 쉘이 수행하는 다양한 확장들"
-tags: shellscript linux
+tags: shellscript
 ---
 
 터미널에서 명령어를 입력하고 엔터를 눌러 실행할 때, 쉘이 해당 명령어 텍스트에 몇가지 프로세스를 적용한다.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "시스템 부팅 과정, 부트로더와 런레벨"
-tags: system linux
+tags: system
 ---
 
 리눅스 시스템이 부팅되는 과정은 아래와 같다.

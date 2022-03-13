@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "하둡 완전 분산 모드로 클러스터 설정하기"
-tags: homecls hadoop
+tags: homecls
 ---
 
 총 4대로 이루어져있는 라즈베리파이 클러스터에 하둡을 설치한다.

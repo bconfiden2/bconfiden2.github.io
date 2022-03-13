@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "메인 노드에서 원격 주피터 서버 열어놓기"
-tags: homecls linux
+tags: homecls
 ---
 
 우선은 간단하게 ```pip3 install jupyter```로 주피터 노트북을 설치해준다.
