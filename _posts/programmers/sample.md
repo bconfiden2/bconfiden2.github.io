@@ -6,18 +6,13 @@ categories: ps
 tags: programmers
 ---
 
-*# Tags*
-
-<br>
-
-[문제 바로가기](https://programmers.co.kr/learn/courses/30/lessons/number)
+[문제 바로가기](https://programmers.co.kr/learn/courses/30/lessons/number) --- *# Tags*
 
 ---
 
 explain
 
 ---
-<br>
 
 ```python
 

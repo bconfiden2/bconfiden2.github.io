@@ -13,7 +13,6 @@ tags: swea
 explain
 
 ---
-<br>
 
 ```python
 
