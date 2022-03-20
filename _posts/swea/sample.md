@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[SWEA] number : title"
+title:  "[SWEA] number : title : grade"
 subtitle:  ""
 categories: ps
 tags: swea
