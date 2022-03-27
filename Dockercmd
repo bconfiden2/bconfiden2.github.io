@@ -14,8 +14,13 @@ while getopts "no" opt; do
     esac
 done
 
+tmp=$(pwd)
+cd $(dirname $0)
+
 if $flg; then
     sudo rm -rf ./_site
 fi
 
 sudo docker run --rm -p 4000:4000 -v $(pwd):/blog blog:1.5
+
+cd $tmp
