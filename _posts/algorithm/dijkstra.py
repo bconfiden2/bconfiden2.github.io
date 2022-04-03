@@ -8,13 +8,12 @@ def dijkstra(start, graph, INF):
 
     while len(pq) > 0:
         cur_dist, cur_node = heapq.heappop(pq)
-        cur_dist *= -1
         if cur_dist > distance[cur_node]:
             continue
         for next_node, next_dist in graph[cur_node]:
             if cur_dist + next_dist < distance[next_node]:
                 distance[next_node] = cur_dist + next_dist
-                heapq.heappush(pq, (-distance[next_node], next_node))
+                heapq.heappush(pq, (distance[next_node], next_node))
     return distance
 
 graph = [
