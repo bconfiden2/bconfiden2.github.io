@@ -1,6 +1,6 @@
 ---
 layout: list
-title: DevOps 
+title: Server 
 slug: devops
 menu: true
 submenu: true
