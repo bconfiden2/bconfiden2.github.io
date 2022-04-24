@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "[프로그래머스] title : from"
-subtitle:  ""
-categories: ps
 tags: programmers
 ---
 

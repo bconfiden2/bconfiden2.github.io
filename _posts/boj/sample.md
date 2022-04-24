@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "[백준] number : title : grade"
-subtitle:  ""
-categories: ps
 tags: boj
 ---
 
