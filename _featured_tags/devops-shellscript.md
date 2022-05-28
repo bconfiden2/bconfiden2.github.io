@@ -4,7 +4,7 @@ title: ShellScript
 slug: shellscript
 category: devops 
 menu: false
-order: 4000 
+order: 2000 
 description: >
     쉘스크립트
 ---
