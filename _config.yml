@@ -55,6 +55,8 @@ permalink:           pretty
 paginate:            8
 paginate_path:       '/page-:num/'
 
+imglink:             http://mac.bconfiden2.site/xa4B6upQWerG56ndR 
+
 # If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
 # so that the location of the feed XML stays the same.
 # feed:
@@ -106,6 +108,7 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
+  - _posts/boj
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'
