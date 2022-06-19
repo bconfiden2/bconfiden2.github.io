@@ -86,7 +86,9 @@
 }
 
 .markdown-body img {
-  margin-left: auto;
+  max-height: 550px;
+  #margin-left: auto;
+
   margin-right: auto;
   max-width: 100%;
   box-sizing: content-box;
