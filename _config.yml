@@ -108,7 +108,7 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
-  - _posts/boj
+#  - _posts/boj
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'
