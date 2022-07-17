@@ -52,6 +52,8 @@ hadoop@hadoop:/opt/hadoop/sbin$ jps
 14058 Jps
 ```
 
+실행파일로도 제공해주는데, ```mapred --daemon start historyserver```이 히스토리서버를 대몬으로 실행시킬 수 있는 명령어이다.
+
 위와 같이 히스토리 서버를 시작시킬 수 있지만, 해당 스크립트를 읽어보면 대략적으로 ```$HADOOP_HOME/libexec/yarn-config.sh``` 를 실행시킨 뒤 exec 으로 대체하는 것으로 보이는데, 파악하기가 힘들다.
 
 쉘스크립트도 단순한 실행 로직을 넘어서 실질적인 부분에 대한 공부가 정말 많이 필요하다는 걸 느꼈다.
