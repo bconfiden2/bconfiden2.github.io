@@ -4,7 +4,7 @@ title: CS
 slug: cs
 menu: true
 submenu: true
-order: 30
+order: 20
 description: >
   밑바닥을 든든히
 ---
