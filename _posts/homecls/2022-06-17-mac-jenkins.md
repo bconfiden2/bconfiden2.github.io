@@ -38,7 +38,7 @@ bconfiden2ui-iMac :: ~ » cat ~/.jenkins/secrets/initialAdminPassword
 7fcbd4cd979f49ba906a8cce0dfdf699
 ```
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-start.png">
+<img src="https://user-images.githubusercontent.com/58922834/215726713-1265684b-f0b9-457f-ad89-c754f739a833.png">
 
 <br>
 
@@ -46,17 +46,17 @@ bconfiden2ui-iMac :: ~ » cat ~/.jenkins/secrets/initialAdminPassword
 
 패키지들을 직접 선택하여 불필요한 플러그인을 제외시킬수도 있지만, 처음에는 그냥 무지성으로 추천해주는 플러그인들을 설치하는 것도 나쁘지 않다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-install.png">
+<img src="https://user-images.githubusercontent.com/58922834/215726860-495797f3-2187-4b71-8277-b5c90fc3b3ef.png">
 
 열심히 플러그인들을 설치하고 있다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-plugin.png">
+<img src="https://user-images.githubusercontent.com/58922834/215726915-cf69444a-a8bb-4078-a410-7335ee050af8.png">
 
 <br>
 
 설치가 완료되면 사용할 계정을 하나 추가해준 뒤,
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-user.png">
+<img src="https://user-images.githubusercontent.com/58922834/215726811-190df611-9cb2-4690-9bb9-343238f54f7f.png">
 
 <br>
 
@@ -64,17 +64,17 @@ bconfiden2ui-iMac :: ~ » cat ~/.jenkins/secrets/initialAdminPassword
 
 기본적으로 ```http://localhost:8080```을 띄워주는데, 뒤에서 변경할 예정이기 때문에 우선은 그냥 저장 버튼을 눌러 초기 세팅을 마친다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-url.png">
+<img src="https://user-images.githubusercontent.com/58922834/215726967-fa9d6ed2-66e4-4950-913e-d04f4534fd3c.png">
 
 <br>
 
 젠킨스 웹UI에 들어올 수 있는데, 왼쪽에 있는 젠킨스 관리 탭에 들어가 시스템 설정 페이지로 들어간다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-manage.png">
+<img src="https://user-images.githubusercontent.com/58922834/215727026-703a73fd-ac7e-440c-bc1c-afd5bbf371da.png">
 
 시스템 설정에서 아주 조금만 내리다 보면 아래와 같이 앞서 설정하려고 했던 젠킨스의 URL을 설정할 수 있는 칸이 보이는데, 만약 공인아이피를 통하여 외부에서 젠킨스에 접근하고 싶을 경우 해당 부분을 바꿔줘야 한다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/jenkins-manage-url.png">
+<img src="https://user-images.githubusercontent.com/58922834/215727057-7117bb54-5e1f-4c8b-882e-962c4a7dce99.png">
 
 나의 경우에는 bconfiden2.site 라는 도메인을 가지고 있기 때문에, 아이맥의 퍼블릭 아이피로 연결시킨 도메인명을 넣어주었다.
 
