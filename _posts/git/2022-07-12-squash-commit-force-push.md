@@ -109,12 +109,7 @@ squash 로 변경해줬던 커밋들은 pick 해준 커밋에 스쿼시 되며, 
 
 만약 force-push 가 아니라 일반적으로 푸시하려고 하면, 아래 그림과 같은 상황이 무한 반복된다.
 
-<figure style="display:inline-block; text-align:center;">
-  <img src="{{ site.imglink }}/{{ page.tags }}/git-squash-evilloop.png">
-  <figcaption style="text-align:center; font-size:12px; color:#808080">
-    https://magonye.github.io/post/git-squash/
-  </figcaption>
-</figure>
+<img src="https://user-images.githubusercontent.com/58922834/215728265-561cab7f-a8e3-4b75-b0df-8f00614fbaed.png">
 
 커밋을 푸시하려고 할 때 원격과 충돌이 일어나면서 git pull 을 통해 머지한 뒤 다시 푸시하라고 말하기 때문이다.
 

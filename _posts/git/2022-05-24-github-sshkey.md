@@ -74,12 +74,12 @@ my_key라는 개인키와, my_key.pub 이라는 공개키 한 쌍이 생성된 �
 
 우상단에 있는 프로필에서 세팅에 들어가면,
 
-<img src="{{ site.imglink }}/{{ page.tags }}/sshkey-setting.png">
+<img src="https://user-images.githubusercontent.com/58922834/215728107-e0d7a9a9-54c1-4076-a269-fa9a0b3d65a7.png">
 <br>
 
 좌측 사이드바에 ```SSH and GPG keys``` 탭이 있는데, 해당 탭에서는 현재 자신이 등록해놓은 키들을 확인할 수 있으며, New SSH key 버튼을 클릭하면 아래와 같은 화면이 나온다.
 
-<img src="{{ site.imglink }}/{{ page.tags }}/sshkey-add.png">
+<img src="https://user-images.githubusercontent.com/58922834/215728140-4740b350-1419-4125-8cb6-991ae019a229.png">
 <br>
 
 Title 항목에는 자신이 식별할 이름을 임의로 지정하여 넣어준다.
