@@ -62,6 +62,17 @@ sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 ```
 
+만일 gpg 키가 제대로 인증되지 않아 아래와 같은 메시지가 뜨는 경우에는,
+```
+Err:8 https://packages.cloud.google.com/apt kubernetes-xenial InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B53DC80D13EDEF05
+```
+
+3번째 줄에서의 gpg 키를 아래와 같은 방식을 통해 저장해준다.
+```
+curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg| gpg -o /usr/share/keyrings/kubernetes-archive-keyring.gpg --dearmor
+```
+
 설치해뒀던 패키지가 자동으로 업데이트되면 클러스터를 사용하다가 호환이 되지 않을 수 있기 때문에, hold 를 통해 버전을 고정해준다.
 ```
 sudo apt-mark hold kubelet kubeadm kubectl
@@ -182,6 +193,9 @@ h01       NotReady   control-plane   18m     v1.26.1
 h02       Ready      <none>          109s   v1.26.1
 h03       Ready      <none>          103s    v1.26.1
 ```
+
+이후에 노드를 추가적으로 더 조인하고 싶을 경우에는, 컨트롤 플레인에서 ```kubeadm token create --print-join-command```와 같이 토큰을 생성하고 명령어까지 같이 출력해주는 옵션을 넣어 편하게 조인할 수 있다.
+
 <br>
 
 ## CNI 네트워크 설정
